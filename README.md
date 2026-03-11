@@ -33,7 +33,7 @@ In this project, the team will work on improving the system by:
 
 
 ## Team members
--- Ahmed Mohamed Nail
--- John George Abdelmseih
--- Mohamed Mosad Elbana
--- Omar Abdelkarim Elrifay
+- Ahmed Mohamed Nail
+- John George Abdelmseih
+- Mohamed Mosad Elbana
+- Omar Abdelkarim Elrifay
