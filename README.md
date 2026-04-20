@@ -1,4 +1,4 @@
-no## Maze solving robot and fire detected
+## Maze solving robot and fire detected
 
 ## componants
  
