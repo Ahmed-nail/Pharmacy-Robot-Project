@@ -27,7 +27,7 @@ Microcontroller (ESP32 or Arduino)
 Power supply (batteries)
 Optional: Flame sensor & buzzer (for extra features)
 
-How the System Works
+##How the System Works
 
 The robot starts moving forward inside the maze.
 Ultrasonic sensors continuously measure distances from obstacles.
