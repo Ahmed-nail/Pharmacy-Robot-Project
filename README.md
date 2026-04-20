@@ -1,41 +1,25 @@
-*photo of the project*
+## Maze solving robot and fire detected:
 
-![Robot](Media/IMG_٢٠٢٦٠٤٢٠_١٢٠٦٥١.jpg)
+## componants
+ 
+- 2 DC motor 2 wheels 
+- Wires 
+- 3 ultrasonic sensor 
+- 1 servo motor 
+- 1 flame sensor 
+- 1 ESP 32 
+- 1 motor driver 
+- 1 buzzer 
+- 1 bread board 
 
-*video of the project*
-![Robot](Media/VID-20260418-WA0004.mp4)
+## Why this robot is useful?
 
-This project represents a prototype of an autonomous maze-solving robot designed to navigate through complex paths and avoid obstacles. The robot uses sensors to detect walls and make real-time decisions while moving.
-The goal of this project is to simulate how intelligent robotic systems can autonomously explore unknown environments and find optimal paths.
+It can move alone without joystick because (ultrasonic sensor) and detected the fire and make a little noise to know there is a fire .
 
-Project Objective
-The objective of this project is to design and improve a maze-solving robot that can move efficiently داخل المتاهة بدون تدخل بشري. The project focuses on enhancing obstacle detection, decision-making algorithms, and movement control to achieve faster and more accurate navigation.
 
-System Description
-
-The system consists of a mobile robotic car equipped with multiple distance sensors and a control unit. The robot continuously scans its surroundings (front, left, and right) to detect obstacles and decide the best direction to move.
-It uses motors to navigate and can adjust its path dynamically based on sensor readings.
-
-Main Components
-
-Chassis (robot car body)
-Two DC motors (with or without encoders)
-Motor driver module (e.g., L298N)
-Ultrasonic sensors (front, right, left)
-Servo motor (for scanning movement)
-Microcontroller (ESP32 or Arduino)
-Power supply (batteries)
-Optional: Flame sensor & buzzer (for extra features)
-
-## How the System Works
-
-The robot starts moving forward inside the maze.
-Ultrasonic sensors continuously measure distances from obstacles.
-If the path ahead is clear, the robot keeps moving forward.
-If an obstacle is detected, the robot compares left and right distances.
-The robot chooses the direction with more free space.
-If no clear path is available, the robot moves backward and retries.
-The process repeats until the robot exits the maze.
+## We can upgrade this project by 
+1-send me a message to warn me from the fire
+2- we can make him inbound at the fire and went the fire out
 
 
 ## Team members
