@@ -1,37 +1,34 @@
-# Pharmacy Robot Project
-![Robot](Images/robot1.jpg)
 
-## Overview
-This project represents a prototype of an automated pharmacy robot designed to store and dispense medicine boxes from organized shelves. The system uses a robotic movement mechanism that can move across different positions to locate the requested medicine, pick it up, and deliver it to the user. The goal of this project is to simulate how automation and robotics can improve efficiency and accuracy in pharmacy operations.
-
-## Project Objective
-The objective of this project is to modify and improve an existing pharmacy robot prototype. The robot is designed to automatically retrieve medicine from shelves using a mechanical system and deliver it to the output area. The project focuses on enhancing the robot’s movement, control system, and overall functionality.
-
-## System Description
-The system consists of a mechanical structure with shelves for storing medicine boxes and a robotic mechanism that moves along rails to reach different positions. Once a medicine is selected, the robot moves to the corresponding location, picks the medicine box using a gripping mechanism, and places it in the delivery area.
-
-## Main Components
-- Mechanical frame and structure  
-- Linear motion rails  
-- Robotic picking mechanism (gripper)  
-- Motors for movement control  
-- Control system (microcontroller or computer interface)  
-- Shelves for storing medicine boxes  
-
-## How the System Works
-1. The user selects a medicine from the system.
-2. The system determines the location of the medicine on the shelves.
-3. The robot moves along the rails to the correct position.
-4. The gripper mechanism picks the medicine box.
-5. The robot moves to the delivery point and releases the medicine.
-
-## Project Improvements
+This project represents a prototype of an autonomous maze-solving robot designed to navigate through complex paths and avoid obstacles. The robot uses sensors to detect walls and make real-time decisions while moving. The goal of this project is to simulate how intelligent robotic systems can autonomously explore unknown environments and find optimal paths.
+Project Objective
+The objective of this project is to design and improve a maze-solving robot that can move efficiently داخل المتاهة بدون تدخل بشري. The project focuses on enhancing obstacle detection, decision-making algorithms, and movement control to achieve faster and more accurate navigation.
+System Description
+The system consists of a mobile robotic car equipped with multiple distance sensors and a control unit. The robot continuously scans its surroundings (front, left, and right) to detect obstacles and decide the best direction to move. It uses motors to navigate and can adjust its path dynamically based on sensor readings.
+Main Components
+Chassis (robot car body)
+Two DC motors (with or without encoders)
+Motor driver module (e.g., L298N)
+Ultrasonic sensors (front, right, left)
+Servo motor (for scanning movement)
+Microcontroller (ESP32 or Arduino)
+Power supply (batteries)
+Optional: Flame sensor & buzzer (for extra features)
+How the System Works
+The robot starts moving forward inside the maze.
+Ultrasonic sensors continuously measure distances from obstacles.
+If the path ahead is clear, the robot keeps moving forward.
+If an obstacle is detected, the robot compares left and right distances.
+The robot chooses the direction with more free space.
+If no clear path is available, the robot moves backward and retries.
+The process repeats until the robot exits the maze.
+Project Improvements
 In this project, the team will work on improving the system by:
-- Enhancing the robot movement accuracy
-- Improving the medicine selection process
-- Optimizing the picking and delivery mechanism
-- Increasing the overall efficiency of the system
-
+Enhancing obstacle detection accuracy
+Improving decision-making algorithms (e.g., shortest path solving)
+Optimizing motor control and speed stability
+Adding encoders for precise movement tracking
+Improving overall efficiency and response time
+Adding extra features like fire detection or alarms
 
 ## Team members
 - Ahmed Mohamed Nail
