@@ -1,1 +1,2 @@
-
+you should download esp requirements on Arduino IDE
+copy this link "https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json" on Additonal Boards Manager URLs
